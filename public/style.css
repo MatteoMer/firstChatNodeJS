@@ -1,0 +1,51 @@
+.text-primary {
+	color: #FE4A49 !important;
+	text-align: center;
+	margin-bottom: 2%;
+}
+
+.text-secondary {
+	color: #ffffff !important;
+}
+
+.bg-secondary {
+	box-shadow: 1px 3px 3px #545E75;
+}
+
+.pseudo {
+	text-align: center;
+}
+
+#bonjour {
+	margin-bottom: 1%;
+}
+
+.input {
+	margin-bottom: 2%;
+}
+
+.bg-primary {
+	background-color: #EBEBEB !important;
+}
+
+.text-input {
+	height: 6%;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+.join {
+	position: absolute;
+	bottom: 6.2%;
+	margin-left: 1.5%;
+}
+
+.join-msg {
+	font-style: italic;
+	color: grey;
+}
+
+body {
+	background-color: #EBEBEB;
+}

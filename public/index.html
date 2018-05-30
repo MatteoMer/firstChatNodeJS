@@ -1,0 +1,58 @@
+<!-- *********************************************************************** -->
+<!--                                                                         -->
+<!--                                                      :::      ::::::::  -->
+<!-- index.html                                         :+:      :+:    :+:  -->
+<!--                                                  +:+ +:+         +:+    -->
+<!-- By: mmervoye <marvin@42.fr>                    +#+  +:+       +#+       -->
+<!--                                              +#+#+#+#+#+   +#+          -->
+<!-- Created: 2018/05/25 16:17:03 by mmervoye          #+#    #+#            -->
+<!-- Updated: 2018/05/30 19:02:06 by mmervoye         ###   ########.fr      -->
+<!--                                                                         -->
+<!-- *********************************************************************** -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>42 CHAT</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="public/style.css">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+		<script src="/socket.io/socket.io.js"></script>
+	</head>
+
+	<body>
+		<div class="container-fluid bg-secondary">
+			<div class="row">
+				<div class="col-sm">
+					<h1 class="text-primary">Bienvenue sur mon chat !</h1>
+					<div class="pseudo" id ="pseudo-input">
+						<input id="inputUser" type="textbox" style="margin-bottom: 0.8%;"placeholder="Pseudo"></input>
+						</br>
+					</div>
+					<div id="bonjour" class="text-secondary text-center">
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="container-fluid bg-primary">
+			<div class="row">
+				<div class="join">
+					<div id="messages">
+					</div>
+				</div>
+				<div class="md-10">
+					<div>
+						<input id='chatInput' type="textbox" class="input-group input-lg text-input" placeholder="Veuillez vous enregistrer." disabled></input>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="/public/script.js"></script>
+	</body>
+</html>
+
