@@ -6,6 +6,7 @@
 
 .text-secondary {
 	color: #ffffff !important;
+	z-index: 1;
 }
 
 .bg-secondary {
@@ -48,4 +49,14 @@
 
 body {
 	background-color: #EBEBEB;
+}
+
+.messages {
+	z-index: 1;
+	margin-top: 56%;
+}
+
+.bar {
+	position: fixed;
+	z-index: 2;
 }
